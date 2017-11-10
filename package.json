@@ -1,0 +1,28 @@
+{
+  "name": "todolist-app",
+  "version": "1.0.0",
+  "description": "To-do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server/index.js"
+  },
+  "author": "Chester Pennock",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "lowdb": "^0.15.5",
+    "nodemon": "^1.11.0",
+    "supervisor": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjpennock/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjpennock/todolist/issues"
+  },
+  "homepage": "https://github.com/cjpennock/todolist#readme"
+}
